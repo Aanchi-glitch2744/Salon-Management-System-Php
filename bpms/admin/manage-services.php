@@ -98,6 +98,13 @@ $cnt=$cnt+1;
 					classie.toggle( showLeftPush, 'disabled' );
 				}
 			}
+
+			// function disableOther( button ) {
+			// 	if( button !== 'showLeftPush' ) {
+			// 		classie.toggle( showLeftPush, 'disabled' );
+			// 	}
+			// }
+
 		</script>
 	<!--scrolling js-->
 	<script src="js/jquery.nicescroll.js"></script>
