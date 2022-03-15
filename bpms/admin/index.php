@@ -96,7 +96,7 @@ if(isset($_POST['login']))
 	</div>
 	<!-- Classie -->
 		<script src="js/classie.js"></script>
-		<!-- <script src="js/ssie.js"></script> -->
+		
 		<script>
 			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
 				showLeftPush = document.getElementById( 'showLeftPush' ),
