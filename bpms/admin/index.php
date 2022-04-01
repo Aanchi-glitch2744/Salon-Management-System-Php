@@ -67,6 +67,7 @@ if(isset($_POST['login']))
 							<p style="font-size:16px; color:red" align="center">
 							 <?php if($msg){
     echo $msg;
+	// echo $msg;
   }  ?> </p>
 							<input type="text" class="user" name="username" placeholder="Username" required="true">
 							<input type="password" name="password" class="lock" placeholder="Password" required="true">
