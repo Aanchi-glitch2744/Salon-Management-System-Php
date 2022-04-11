@@ -21,7 +21,7 @@ if(isset($_POST['login']))
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Login Page </title>
+<title>Login Page | Salon Management System </title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -57,14 +57,15 @@ if(isset($_POST['login']))
 		<!-- main content start-->
 		<div id="page-wrapper">
 			<div class="main-page login-page ">
-				<h3 class="title1">SignIn Page</h3>
+				<h3 class="title1">Login Page</h3>
 				<div class="widget-shadow">
 					<div class="login-top">
-						<h4>Welcome back to BPMS AdminPanel ! </h4>
+						<h4>Welcome back to Salon Management System's Admin Section ! </h4>
 					</div>
 					<div class="login-body">
 						<form role="form" method="post" action="">
-							<p style="font-size:16px; color:red" align="center"> <?php if($msg){
+							<p style="font-size:16px; color:red" align="center">
+							 <?php if($msg){
     echo $msg;
   }  ?> </p>
 							<input type="text" class="user" name="username" placeholder="Username" required="true">
@@ -73,14 +74,14 @@ if(isset($_POST['login']))
 							<div class="forgot-grid">
 								
 								<div class="forgot">
-									<a href="../index.php">Back to Home</a>
+									<a href="../index.php">⬅ Back to Home</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
 							<div class="forgot-grid">
 								
 								<div class="forgot">
-									<a href="forgot-password.php">forgot password?</a>
+									<a href="forgot-password.php">Forgot Password?</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

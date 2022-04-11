@@ -1,5 +1,5 @@
 <!--footer-->
     <div class="footer">
-       <p>&copy; 2019 BPMS Admin Panel.</p>
+       <p> 2019 &copy; The Queen Women's Salon Management System Admin Dashboard.</p>
     </div>
         <!--//footer-->

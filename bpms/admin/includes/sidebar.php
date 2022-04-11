@@ -3,10 +3,10 @@
         <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
           <ul class="nav" id="side-menu">
             <li>
-              <a href="dashboard.php"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+              <a href="dashboard.php"><i class="fa fa-home nav_icon"></i>Admin Dashboard</a>
             </li>
             <li>
-              <a href="add-services.php"><i class="fa fa-cogs nav_icon"></i>Services<span class="fa arrow"></span> </a>
+              <a href="add-services.php"><i class="fa fa-cogs nav_icon"></i>Services Section<span class="fa arrow"></span> </a>
               <ul class="nav nav-second-level collapse">
                 <li>
                   <a href="add-services.php">Add Services</a>
@@ -18,7 +18,7 @@
               <!-- /nav-second-level -->
             </li>
             <li class="">
-              <a href="about-us.php"><i class="fa fa-book nav_icon"></i>Pages <span class="fa arrow"></span></a>
+              <a href="about-us.php"><i class="fa fa-book nav_icon"></i>All User Pages <span class="fa arrow"></span></a>
               <ul class="nav nav-second-level collapse">
                 <li>
                   <a href="about-us.php">About Us</a>
@@ -67,13 +67,13 @@
             </li>
 
     <li>
-              <a href="invoices.php" class="chart-nav"><i class="fa fa-file-text-o nav_icon"></i>Invoices</a>
+              <a href="invoices.php" class="chart-nav"><i class="fa fa-file-text-o nav_icon"></i>All Invoices</a>
             </li>
             <li>
-              <a href="search-appointment.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search Appointment</a>
+              <a href="search-appointment.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search All Appointment</a>
             </li>
             <li>
-              <a href="search-invoices.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search Invoice</a>
+              <a href="search-invoices.php" class="chart-nav"><i class="fa fa-search nav_icon"></i>Search All Invoice</a>
             </li>
           
 

@@ -9,7 +9,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Admin Dashboard</title>
+<title>Admin Panel: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -68,7 +68,7 @@ $totalcust=mysqli_num_rows($query1);
 ?>
 						<div class="stats-left ">
 							<h5>Total</h5>
-							<h4>Customer</h4>
+							<h4>Customers</h4>
 						</div>
 						<div class="stats-right">
 							<label> <?php echo $totalcust;?></label>
@@ -81,7 +81,7 @@ $totalappointment=mysqli_num_rows($query2);
 ?>
 						<div class="stats-left">
 							<h5>Total</h5>
-							<h4>Appointment</h4>
+							<h4>Appointments</h4>
 						</div>
 						<div class="stats-right">
 							<label> <?php echo $totalappointment;?></label>
@@ -94,7 +94,8 @@ $totalaccapt=mysqli_num_rows($query3);
 ?>
 						<div class="stats-left">
 							<h5>Total</h5>
-							<h4>Accepted Apt</h4>
+							<!-- <h4>Accepted Apt</h4> -->
+							<h4>Confirmed Bookings</h4>
 						</div>
 						<div class="stats-right">
 							<label><?php echo $totalaccapt;?></label>
@@ -114,7 +115,8 @@ $totalrejapt=mysqli_num_rows($query4);
 ?>
 						<div class="stats-left ">
 							<h5>Total</h5>
-							<h4>Rejected Apt</h4>
+							<!-- <h4>Rejected Apt</h4> -->
+							<h4>Rejected Bookings</h4>
 						</div>
 						<div class="stats-right">
 							<label> <?php echo $totalrejapt;?></label>
@@ -127,7 +129,7 @@ $totalser=mysqli_num_rows($query5);
 ?>
 						<div class="stats-left">
 							<h5>Total</h5>
-							<h4>Services</h4>
+							<h4>Services List</h4>
 						</div>
 						<div class="stats-right">
 							<label> <?php echo $totalser;?></label>
@@ -199,7 +201,7 @@ $tseven+=$sevendays_sale;
 }
  ?>
 						<div class="stats-left">
-							<h5>Last Sevendays</h5>
+							<h5>Last Week</h5>
 							<h4>Sale</h4>
 						</div>
 						<div class="stats-right">

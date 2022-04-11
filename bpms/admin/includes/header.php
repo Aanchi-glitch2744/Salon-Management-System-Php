@@ -6,8 +6,8 @@
         <!--logo -->
         <div class="logo">
           <a href="index.html">
-            <h1>BPMS</h1>
-            <span>AdminPanel</span>
+            <h1>The Queen Salon Management System</h1>
+            <span>Admin Section</span>
           </a>
         </div>
         <!--//logo-->
@@ -29,19 +29,19 @@ $num=mysqli_num_rows($ret1);
               <ul class="dropdown-menu">
                 <li>
                   <div class="notification_header">
-                    <h3>You have <?php echo $num;?> new notification</h3>
+                    <h3>You have <?php echo $num;?> new notifications</h3>
                   </div>
                 </li>
                 <li>
             
                    <div class="notification_desc">
                      <?php if($num>0){
-while($result=mysqli_fetch_array($ret1))
+                          while($result=mysqli_fetch_array($ret1))
 {
             ?>
                  <a class="dropdown-item" href="view-appointment.php?viewid=<?php echo $result['ID'];?>">New appointment received from <?php echo $result['Name'];?> </a><br />
 <?php }} else {?>
-    <a class="dropdown-item" href="all-appointment.php">No New Appointment Received</a>
+    <a class="dropdown-item" href="all-appointment.php">No New Appointments Received</a>
         <?php } ?>
                            
                   </div>
@@ -51,7 +51,7 @@ while($result=mysqli_fetch_array($ret1))
                 
                  <li>
                   <div class="notification_bottom">
-                    <a href="new-appointment.php">See all notifications</a>
+                    <a href="new-appointment.php">Check all notifications</a>
                   </div> 
                 </li>
               </ul>
