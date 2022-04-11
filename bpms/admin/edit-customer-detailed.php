@@ -31,7 +31,7 @@ $details=$_POST['details'];
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Update Services</title>
+<title>Edit/Update Services Page : Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -73,7 +73,7 @@ $details=$_POST['details'];
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="forms">
-					<h3 class="title1">Update Services</h3>
+					<h3 class="title1">Edit/Update Services Section</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
 							<h4>Update Parlour Services:</h4>
@@ -92,23 +92,23 @@ while ($row=mysqli_fetch_array($ret)) {
 ?> 
 
   
-							 <div class="form-group"> <label for="exampleInputEmail1">Name</label> <input type="text" class="form-control" id="name" name="name"  value="<?php  echo $row['Name'];?>" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Email</label> <input type="text" id="email" name="email" class="form-control"  value="<?php  echo $row['Email'];?>" required="true"> </div>
+							 <div class="form-group"> <label for="exampleInputEmail1">User's Name</label> <input type="text" class="form-control" id="name" name="name"  value="<?php  echo $row['Name'];?>" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Email</label> <input type="text" id="email" name="email" class="form-control"  value="<?php  echo $row['Email'];?>" required="true"> </div>
 							 <div class="form-group"> <label for="exampleInputPassword1">Mobile Number</label> <input type="text" id="mobilenum" name="mobilenum" class="form-control"  value="<?php  echo $row['MobileNumber'];?>" required="true"> </div>
 							 <div class="form-group"> <label for="exampleInputPassword1">Gender</label> <?php if($row['Gender']=="Male")
-{?><input type="radio" id="gender" name="gender" value="Male" checked="true">Male
+{?><input type="radio" id="gender" name="gender" value="Male" checked="true">Kids
 
                      <input type="radio" name="gender" value="Female">Female
                      <input type="radio" name="gender" value="Transgender">Transgender
                    <?php } ?>
 <?php if($row['Gender']=="Female")
-{?><input type="radio" id="gender" name="gender" value="Male" >Male
+{?><input type="radio" id="gender" name="gender" value="Male" >Kids
 
                      <input type="radio" name="gender" value="Female" checked="true">Female
                      <input type="radio" name="gender" value="Transgender">Transgender
                    <?php } 
 
                     else {?>
- <input type="radio" id="gender" name="gender" value="Male" >Male
+ <input type="radio" id="gender" name="gender" value="Male" >Kids
   <input type="radio" name="gender" value="Female" >Female
   <input type="radio" name="gender" value="Transgender" checked="true">Transgender
                    <?php }?>

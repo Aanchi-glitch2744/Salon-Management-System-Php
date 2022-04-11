@@ -12,7 +12,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || Sales Reports</title>
+<title>Sales Reports Section: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -54,7 +54,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Sales Reports</h3>
+					<h3 class="title1">All Sales Reports Data</h3>
 					
 					
 				
