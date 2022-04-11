@@ -27,7 +27,7 @@ echo "<script>window.location.href ='invoices.php'</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || Assign Services</title>
+<title>Assigned Services: Salon Management System </title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -69,14 +69,14 @@ echo "<script>window.location.href ='invoices.php'</script>";
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Assign Services</h3>
+					<h3 class="title1">Assigned Services: The Queen Salon</h3>
 					
 					
 				
 					<div class="table-responsive bs-example widget-shadow">
-						<h4>Assign Services:</h4>
+						<h4>Assigned Services:</h4>
 <form method="post">
-						<table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Service Name</th> <th>Service Price</th> <th>Action</th> </tr> </thead> <tbody>
+						<table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Service Name</th> <th>Minimum Cost</th> <th>Action</th> </tr> </thead> <tbody>
 <?php
 $ret=mysqli_query($con,"select *from  tblservices");
 $cnt=1;

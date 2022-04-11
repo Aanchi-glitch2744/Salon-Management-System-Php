@@ -27,7 +27,7 @@ $pagedes=$_POST['pagedes'];
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | About Us</title>
+<title>About Us: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -70,7 +70,7 @@ $pagedes=$_POST['pagedes'];
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="forms">
-					<h3 class="title1">Update About Us</h3>
+					<h3 class="title1">Update About Section</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
 							<h4>Update About Us:</h4>
@@ -92,7 +92,7 @@ while ($row=mysqli_fetch_array($ret)) {
 							 <div class="form-group"> <label for="exampleInputEmail1">Page Title</label> <input type="text" class="form-control" name="pagetitle" id="pagetitle" value="<?php  echo $row['PageTitle'];?>" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Page Description</label> <textarea name="pagedes" id="pagedes" rows="5" class="form-control">
         <?php  echo $row['PageDescription'];?></textarea> </div>
 							 <?php } ?>
-							  <button type="submit" name="submit" class="btn btn-default">Update</button> </form> 
+							  <button type="submit" name="submit" class="btn btn-default">Update Description</button> </form> 
 						</div>
 						
 					</div>
