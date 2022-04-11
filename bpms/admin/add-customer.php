@@ -26,7 +26,7 @@ echo "<script>alert('Something Went Wrong. Please try again.');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Add Services</title>
+<title>Add Customers: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -68,10 +68,10 @@ echo "<script>alert('Something Went Wrong. Please try again.');</script>";
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="forms">
-					<h3 class="title1">Add Customer</h3>
+					<h3 class="title1">Add A User</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
-							<h4>Parlour Customer:</h4>
+							<h4>Regular Customer:</h4>
 						</div>
 						<div class="form-body">
 							<form method="post">
@@ -90,11 +90,11 @@ echo "<script>alert('Something Went Wrong. Please try again.');</script>";
                                 </label>
                                 <label>
                                     <input type="radio" name="gender" id="gender" value="Male">
-                                    Male
+                                    Kids
                                 </label>
                                 <label>
                                     <input type="radio" name="gender" id="gender" value="Transgender">
-                                   Transgender
+                                   Transgenders
                                 </label></p>
                             </div>
 							 	<div class="form-group"> <label for="exampleInputEmail1">Details</label> <textarea type="text" class="form-control" id="details" name="details" placeholder="Details" required="true" rows="12" cols="4"></textarea> </div>

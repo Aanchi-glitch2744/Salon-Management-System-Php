@@ -30,7 +30,7 @@ $timing=$_POST['timing'];
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS | Contact Us</title>
+<title>Contact Us Page: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -73,7 +73,7 @@ $timing=$_POST['timing'];
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="forms">
-					<h3 class="title1">Update Contact Us</h3>
+					<h3 class="title1">Update Contact-Us section</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
 							<h4>Update Contact Us:</h4>

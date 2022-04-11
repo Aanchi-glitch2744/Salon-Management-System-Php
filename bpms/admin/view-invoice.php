@@ -12,7 +12,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || Customer List</title>
+<title>View Customer Invoice Lis: Salon Management Systemt</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -54,7 +54,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables" id="exampl">
-					<h3 class="title1">Invoice Details</h3>
+					<h3 class="title1">All Invoice Details</h3>
 					
 	<?php
 	$invid=intval($_GET['invoiceid']);
@@ -71,10 +71,10 @@ while ($row=mysqli_fetch_array($ret)) {
 						<h4>Invoice #<?php echo $invid;?></h4>
 						<table class="table table-bordered" width="100%" border="1"> 
 <tr>
-<th colspan="6">Customer Details</th>	
+<th colspan="6">All Customer Details:</th>	
 </tr>
 							 <tr> 
-								<th>Name</th> 
+								<th>User Name</th> 
 								<td><?php echo $row['Name']?></td> 
 								<th>Contact no.</th> 
 								<td><?php echo $row['MobileNumber']?></td>
@@ -91,7 +91,7 @@ while ($row=mysqli_fetch_array($ret)) {
 </table> 
 <table class="table table-bordered" width="100%" border="1"> 
 <tr>
-<th colspan="3">Services Details</th>	
+<th colspan="3">All Services Details:</th>	
 </tr>
 <tr>
 <th>#</th>	
