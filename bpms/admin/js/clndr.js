@@ -18,6 +18,7 @@
  * Further changes, comments: @addyosmani
  * Licensed under the MIT license
  */
+
 (function (factory) {
     // Multiple loading methods are supported depending on
     // what is available globally. While moment is loaded
