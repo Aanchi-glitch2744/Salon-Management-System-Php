@@ -59,10 +59,10 @@ if(isset($_POST['submit']))
 		<!-- main content start-->
 		<div id="page-wrapper">
 			<div class="main-page login-page ">
-				<h3 class="title1">Forgot Page</h3>
+				<h3 class="title1">Forgot Page ❓</h3>
 				<div class="widget-shadow">
 					<div class="login-top">
-						<h4>Welcome back to BPMS AdminPanel ! </h4>
+						<h4>Welcome back to The Queen Salon Management System Admin Dashboard ! </h4>
 					</div>
 					<div class="login-body">
 						<form role="form" method="post" action="">
@@ -77,7 +77,7 @@ if(isset($_POST['submit']))
 							<div class="forgot-grid">
 								
 								<div class="forgot">
-									<a href="index.php">Already have an account</a>
+									<a href="index.php">✔ Already have an account❕ </a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

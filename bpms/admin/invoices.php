@@ -54,17 +54,17 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Invoice List</h3>
+					<h3 class="title1">Invoice List Section</h3>
 					
 					
 				
 					<div class="table-responsive bs-example widget-shadow">
-						<h4>Invoice List:</h4>
+						<h4>All Invoices List:</h4>
 						<table class="table table-bordered"> 
 							<thead> <tr> 
 								<th>#</th> 
 								<th>Invoice Id</th> 
-								<th>Customer Name</th> 
+								<th>User's Name</th> 
 								<th>Invoice Date</th> 
 								<th>Action</th>
 							</tr> 
