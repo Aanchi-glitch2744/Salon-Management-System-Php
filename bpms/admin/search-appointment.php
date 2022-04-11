@@ -12,7 +12,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || Search Appointment</title>
+<title>Search Appointments: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -54,12 +54,12 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Search Appointment</h3>
+					<h3 class="title1">Search All Appointments</h3>
 					
 					
 				
 					<div class="table-responsive bs-example widget-shadow">
-						<h4>Search Appointment / Name / Contact number:</h4>
+						<h4>Search Appointment / User's Name / Contact number:</h4>
 	<div class="form-body">
 							<form method="post" name="search" action="">
 								<p style="font-size:16px; color:red" align="center"> <?php if($msg){

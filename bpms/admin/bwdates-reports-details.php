@@ -12,7 +12,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || B/W date Reports</title>
+<title>Between date Reports: Salon Management System</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -54,7 +54,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Between dates reports</h3>
+					<h3 class="title1">All Between dates reports</h3>
 					
 					
 				
@@ -71,7 +71,7 @@ $tdate=$_POST['todate'];
 							<thead> <tr> 
 								<th>#</th> 
 								<th>Invoice Id</th> 
-								<th>Customer Name</th> 
+								<th>User's Name</th> 
 								<th>Invoice Date</th> 
 								<th>Action</th>
 							</tr> 
